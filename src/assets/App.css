@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+.App {
+  /* background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%); */
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  justify-content: center;
+  height: 100vh;
+}
+
+.quote {
+  margin-left: 1vw;
+  margin-top: 20vh;
+  text-align: center;
+  vertical-align: center;
+  height: 30%;
+}
+
+#quote-input {
+  height: 4vw;
+  width: 40%;
+  margin: 5px;
+  float: left;
+}
+
+.quote-submit {
+  height: 4vw;
+  width: 4vw;
+  background-color: #B0E0E6;
+  font-size: 0.9vw;
+  float: center;
+}
+
+#quote {
+  text-align: center;
+  font-size: 100px;
+}
+
+.dropdown {
+  text-align: center;
+  position: relative;
+  display: inline-flex;
+  width: 40%;
+  height: 4vw;
+}
+
+.dropdown-content button {
+  color: black;
+  padding: 12px;
+  display: flex;
+  width: 95%;
+  font-size: 15px;
+  text-align: left;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content button:hover {
+  background-color: blue;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#drop_button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  width: 80%;
+}
+
+.menu-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(90, 211, 183);
+  height: 10%;
+  width: 100%;
+}
+
+.menu-nav header {
+  text-align: center;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  font-size: 4vw;
+}
+
+#hidden {
+  display: none;
+}
+
+#clock {
+  font-family: 'Orbitron', sans-serif;
+  color: black;
+  font-size: 10vw;
+  text-align: center;
+  height: 30%;
+  width: 100%;
+}
